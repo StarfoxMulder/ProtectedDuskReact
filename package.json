@@ -1,0 +1,62 @@
+{
+  "name": "protecteddusk",
+  "version": "0.1.0",
+  "description": "A site scraping paranormal, conspiracy, and extra terrestrial related news from around the internet!  Visitors will also have the ability to provide anonymous comentary on each article.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarfoxMulder/scraper.git"
+  },
+  "keywords": [
+    "paranormal",
+    "conspiracy",
+    "alien",
+    "extraterrestrial",
+    "extra",
+    "terrestrial",
+    "ufo",
+    "news",
+    "comment",
+    "cherrio",
+    "express",
+    "handlebars",
+    "mongoose",
+    "mongodb",
+    "robomongo"
+  ],
+  "author": "Charles Jude Prestia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarfoxMulder/scraper/issues"
+  },
+  "homepage": "https://github.com/StarfoxMulder/scraper#readme",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "request": "^2.79.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "eslint": "^3.12.2",
+    "eslint-config-google": "^0.7.1",
+    "webpack": "^1.13.1"
+  }
+}
