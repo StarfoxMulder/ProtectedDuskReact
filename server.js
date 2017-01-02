@@ -19,7 +19,7 @@ app.use(logger("dev"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
 app.use(express.static("./public"));
-app.use(routers);
+app.use(routes);
 
 // Configuring protected_dust database
 var databaseUri = "mongodb://localhost/protected_dust";
