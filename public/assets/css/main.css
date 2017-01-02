@@ -1,0 +1,121 @@
+
+body {
+  background-image: url('/assets/images/maxresdefault2.jpg');
+  background-size: cover;
+  /*background-color: #D2EEFF;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*header {
+  background-color: #9499CC;
+  padding-top: 2px;
+  width: 100%;
+}*/
+/*#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}*/
+main {
+  padding-top: 3%;
+}
+#brandTitle {
+  font-family: 'Aguafina Script', serif;
+  color: #21244C;
+  letter-spacing: 7px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 28px;
+  width: auto;
+}
+nav {
+  background-color: #9499CC;
+  font-family: 'EB Garamond', serif;
+}
+.navbar-nav {
+  color: #21244C;
+}
+.icon-bar {
+  color: #21244C;
+}
+.activeNavLink {
+  color: #50547F;
+  background-color: #D2D6FF;
+}
+
+
+/*article elements*/
+.media {
+  border: 1px solid #21244C;
+  border-radius: 8px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+}
+.media-object {
+  height: 64px;
+  width: 64px;
+}
+p {
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+}
+a {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+.btn-info {
+  background-color: #99B3E3;
+}
+.btn-info:hover {
+  background-color: #5A65D4;
+}
+.btn-warning {
+  background-color: #21244C;
+}
+.btn-warning:hover {
+  background-color: #6F7399;
+}
+/*form for new note submission*/
+#noteForm {
+  margin-bottom: 2%;
+}
+label {
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+}
+#noteBody {
+  font-family: 'EB Garamond', serif;
+}
+textarea {
+  display: block;
+  background-color: #FCF5C7;
+}
+
+/*container and previous notes*/
+#submitNote {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.noteMedia {
+  border-bottom: 1px solid #21244C;
+  border-radius: 8px;
+}
+.noteText {
+  padding-left: 2%;
+}
+.btn-danger {
+  background-color: #37394C;
+}
+
+/*textarea {
+  height: 200px;
+  font-size: 18px;
+}
+*/
